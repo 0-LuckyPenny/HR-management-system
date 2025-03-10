@@ -1,3 +1,13 @@
-<ion-app>
-  <ion-router-outlet></ion-router-outlet>
-</ion-app>
+<ion-header class="fixed top-0 left-0 w-full bg-white shadow-md">
+  <ion-toolbar class="flex justify-between items-center px-4 py-2">
+    <ion-title class="text-lg font-bold">MyApp</ion-title>
+    <button ion-button class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
+      Login
+    </button>
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main Content -->
+<ion-content class="mt-16">
+  <router-outlet></router-outlet>
+</ion-content>
